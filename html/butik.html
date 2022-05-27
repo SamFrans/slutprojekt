@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset='UTF-8'>
+<title>Rymraketens Butik</title>
+
+<!-- Fonter -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/butik.css">
+</head>
+<body>
+    
+    <div id="overlay">
+        <div style="margin:14px 14px 0px 14px">Rymdraketens<br>Historia</div>
+    
+            <div id="ansvarigutvecklare">
+                Av <br> Samuel Fransson<br>
+                <a href='https://github.com/SamFrans' target="_blank">
+                    <img 
+                        src="../bilder/gitlogo.png" 
+                        style="width:30px;"
+                        alt="github logo">
+                </a>
+            </div>
+            
+            <div id="webblogga" onclick="location.href = 'index.html'">
+                <img src="../bilder/pfp.png"
+                alt="Weblogga"
+                style="width: 78px; margin-left:14px;margin-top:6px">
+            </div>
+    </div>
+    <div style="display:flex;justify-content:center;">
+        <div id="div-navbar">
+            <div class="menyval" onclick="location.href = 'index.html'">Hem</div>
+            <div class="menyval" onclick="location.href = 'galleri.html'">Galleri</div>
+            <div class="menyval" onclick="location.href = 'butik.html'">Butik</div>
+            <div class="menyval" onclick="location.href = 'omoss.html'">Om&nbsp;oss</div>
+            <div class="menyval" onclick="location.href = 'öppettider.html'">Öppettider</div>       
+        </div>
+    </div>
+
+    <div id="produkter">   
+            <img src="../bilder/mugg.png" alt="bild på kaffemugg">
+            <div class="produktfönster" >
+                <label class="produktinfo">Köp muggar. 0kr st</label>
+                <input type="number" min="1" max="10" style="width: 40px;">
+                <button>Köp</button>
+            </div>
+
+            <img src="../bilder/t-shirt.png" alt="bild på T-shirt">
+            <div class="produktfönster">
+                <label class="produktinfo">Köp T-shirts. 0kr st</label>
+                <input type="number" min="1" max="10" style="width: 40px;">
+                <button>Köp</button>
+            </div>
+    </div>
+
+</body>
+</html>
